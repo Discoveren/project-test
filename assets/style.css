@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  border: none;
+  background-color: #000;
+  cursor: pointer;
+  font-family: inherit;
+}
+/* header */
+.header {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 90%;
+  border: 1px red solid;
+  margin-inline: auto;
+  padding: 1rem 10px;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  flex: 1;
+}
+
+.header__menu {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.header__link {
+  text-decoration: none;
+  color: black;
+}
+
+.header__btn-container {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  justify-content: flex-end;
+}
+/* Utility class */
+.btn {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
